@@ -28,5 +28,10 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 ### Test 3
 
 - Implement something to make the input static and always visible (when scrolling to see products)
+- Filter approach is not valid if we have a big number of products ( not all products are loaded with fetch)
 - Implement some fallback when products are not correctly loaded
 - Implement loading state??
+
+## Missing
+
+- Tests are not yet available
