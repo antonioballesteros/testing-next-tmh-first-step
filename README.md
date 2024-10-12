@@ -10,3 +10,11 @@ npm run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+## Improvements
+
+### Test 1
+
+- Trigger "setNewTask" when user click "return"
+- Add some icons instead to have "remove" or "add" texts
+- Avoid duplicated tasks
