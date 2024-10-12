@@ -24,3 +24,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Under the card we should have something interesting to show
 - Implement some fallback when user is not correctly loaded
 - Implement loading state??
+
+### Test 3
+
+- Implement something to make the input static and always visible (when scrolling to see products)
+- Implement some fallback when products are not correctly loaded
+- Implement loading state??
