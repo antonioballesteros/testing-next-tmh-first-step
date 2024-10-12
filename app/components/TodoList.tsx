@@ -1,6 +1,6 @@
 "use client";
 
-import { addItemToArray, removeItemFromArray } from "@/app/utils/array";
+import { addItemToArray, removeItemFromArray } from "@/utils/array";
 import { useState } from "react";
 
 export default function TodoList() {

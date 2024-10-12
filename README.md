@@ -18,3 +18,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 - Trigger "setNewTask" when user click "return"
 - Add some icons instead to have "remove" or "add" texts
 - Avoid duplicated tasks
+
+### Test 2
+
+- Under the card we should have something interesting to show
+- Implement some fallback when user is not correctly loaded
+- Implement loading state??
