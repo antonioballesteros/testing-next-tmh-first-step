@@ -11,6 +11,7 @@ export default function Products({ products }: { products: Product[] }) {
   return (
     <main className="p-4 rounded-lg">
       <Input
+        value={filter}
         onChange={(value) => setFilter(value)}
         placeholder="filter products by name"
       />

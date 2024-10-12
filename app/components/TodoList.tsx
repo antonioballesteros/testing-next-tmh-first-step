@@ -2,6 +2,7 @@
 
 import { addItemToArray, removeItemFromArray } from "@/utils/array";
 import { useState } from "react";
+import Input from "./ui/Input";
 
 export default function TodoList() {
   const [newTask, setNewTask] = useState("");
@@ -17,11 +18,12 @@ export default function TodoList() {
   return (
     <div className="p-4 gap-8">
       <div>
-        <input
+        <Input
           value={newTask}
-          onChange={(e) => setNewTask(e.target.value)}
-          className="bg-inherit border-2 border-neutral-700 p-2 rounded-lg"
+          onChange={(value) => setNewTask(value)}
+          placeholder="filter products by name"
         />
+
         <button className="pl-4" disabled={!newTask} onClick={() => addTask()}>
           Add
         </button>
